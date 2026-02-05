@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+pydantic
+langdetect
+deep-translator
+openai-whisper
+torch
+python-multipart
+gtts
