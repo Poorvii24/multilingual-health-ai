@@ -2,7 +2,7 @@ import whisper
 import tempfile
 import os
 
-model = whisper.load_model("base")
+model = whisper.load_model("tiny")
 
 def speech_to_text(audio_bytes: bytes):
     with tempfile.NamedTemporaryFile(delete=False, suffix=".wav") as temp_audio:
