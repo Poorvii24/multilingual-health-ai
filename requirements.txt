@@ -1,9 +1,10 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+
 fastapi
 uvicorn
 pydantic
-langdetect
-deep-translator
-openai-whisper
-torch
 python-multipart
 gtts
+langdetect
+openai-whisper
+torch==2.1.0+cpu
