@@ -142,16 +142,17 @@ def chat_audio(file: UploadFile = File(...)):
 
     # 🔊 Generate audio
     audio_path = text_to_speech(
-        final_reply,
-        detected_language
-    )
+    final_reply,
+    detected_language
+)
 
-    return TextResponse(
-        reply_text=final_reply,
-        detected_language=detected_language,
-        confidence=confidence,
-        audio_url=audio_path
-    )
+return TextResponse(
+    reply_text=final_reply,
+    detected_language=detected_language,
+    confidence=confidence,
+    audio_url=audio_path
+)
+
 
 
 
